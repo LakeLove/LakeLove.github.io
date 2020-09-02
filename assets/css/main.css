@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: 60px auto;
     width: 70%;
 }
@@ -40,4 +40,20 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}*/
+
+$sidebar-bg-color: #6f2a2b;
+$link-color: #ac4142;
+@import "hydeout";
+
+img {
+ display: inline;
+}
+
+img.block {
+  display:block;
+}
+
+a.copyright {
+ font-weight:lighter;
 }
