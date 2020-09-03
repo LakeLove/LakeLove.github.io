@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Lake Greene, Software Developer</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    </head>
+    <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
+
+        <div class="container">
+            <div class="blurb">
+                <h1>Lake Greene</h1>
+                <h2>Software Developer</h2>
+                <p></p>
+            </div><!-- /.blurb -->
+        </div><!-- /.container -->
+        {{content}}
+        <footer>
+            <ul>
+                <li><a href="mailto:lakegreene@yahoo.com">lakegreene@yahoo.com</a></li>
+                <li><a href="https://github.com/LakeLove">Github</a></li>
+            </ul>
+        </footer>
+
+    </body>
+</html>
