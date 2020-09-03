@@ -17,3 +17,5 @@ log/
 .classpath
 .project
 .settings/
+_site/
+.jekyll-cache/

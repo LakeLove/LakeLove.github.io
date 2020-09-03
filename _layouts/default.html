@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Lake Greene, Software Developer</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     </head>
     <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
 
@@ -16,7 +16,7 @@
                 <p></p>
             </div><!-- /.blurb -->
         </div><!-- /.container -->
-
+        {{content}}
         <footer>
             <ul>
                 <li><a href="mailto:lakegreene@yahoo.com">lakegreene@yahoo.com</a></li>
